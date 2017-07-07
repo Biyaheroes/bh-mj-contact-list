@@ -1,0 +1,47 @@
+{
+  "name": "bh-mj-contact-list",
+  "version": "0.0.0",
+  "description": "Biyaheroes MJML Contact List Component.",
+  "main": "contact-list.deploy.js",
+  "support": "contact-list.support.js",
+  "authors": [
+    "Biyaheroes Developers <developers@biyaheroes.com>",
+    "Robot Biyaheroes <robot@biyaheroes.com>",
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "biyaheroes",
+    "mjml",
+    "contact",
+    "list",
+    "component",
+    "bh-mj-contact-list"
+  ],
+  "homepage": "https://github.com/Biyaheroes/bh-mj-contact-list",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "doubt": "^0.29.0",
+    "wichevr": "^0.12.0",
+    "raze": "^0.32.0"
+  },
+  "dependencies": {
+    "arid": "^0.28.0",
+    "bh-mj-issue": "^0.0.0",
+    "bh-mj-prompt": "^0.0.0",
+    "bh-mj-small-detail": "^0.5.0",
+    "doubt": "^0.29.0",
+    "falzy": "^0.20.0",
+    "jquery": "^3.2.1",
+    "parseon": "^0.8.0",
+    "react": "^15.6.1",
+    "sxty4": "^0.10.0",
+    "wichevr": "^0.12.0"
+  }
+}

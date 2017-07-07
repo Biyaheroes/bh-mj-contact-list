@@ -1,0 +1,91 @@
+{
+  "name": "bh-mj-contact-list",
+  "version": "0.0.0",
+  "description": "Biyaheroes MJML Contact List Component.",
+  "main": "contact-list.js",
+  "support": "contact-list.support.js",
+  "deploy": "contact-list.deploy.js",
+  "browser": "contact-list.deploy.js",
+  "scripts": {
+    "deploy": "veon set production \"gulp clean && gulp && babel contact-list.js --out-file contact-list.support.js --source-maps && webpack --progress\"",
+    "build": "veon set development \"gulp clean && gulp && babel contact-list.js --out-file contact-list.support.js --source-maps && webpack --progress\"",
+    "test": "veon set test \"gulp && webpack --progress --env.test && npm run render\"",
+    "render": "mjml test-index.mjml --output test-index.html",
+    "watch": "gulp clean && watch \"npm run test\" ./ ./*/ --filter=./.filter.js --wait=5 --interval=5 --ignoreDotFiles",
+    "live": "gulp clean && gulp watch",
+    "server": "veon set test \"webpack-dev-server --env.test\"",
+    "proxy": "browser-sync start --port 3000 --proxy \"localhost:4000\" --index=\"test-index.html\" --files \"test-index.html\" \"test.deploy.js\"",
+    "browser": "browser-sync start --server --port 3000 --index=\"test-index.html\" --files \"test-index.html\" \"test.deploy.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biyaheroes/bh-mj-contact-list.git"
+  },
+  "keywords": [
+    "biyaheroes",
+    "mjml",
+    "contact",
+    "list",
+    "component",
+    "bh-mj-contact-list"
+  ],
+  "author": "Biyaheroes Developers <developers@biyaheroes.com>",
+  "contributors": [
+    "Robot Biyaheroes <robot@biyaheroes.com>",
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Biyaheroes/bh-mj-contact-list/issues"
+  },
+  "homepage": "https://github.com/Biyaheroes/bh-mj-contact-list#readme",
+  "dependencies": {
+    "arid": "^0.28.0",
+    "babel-runtime": "^6.23.0",
+    "bh-mj-issue": "^0.1.0",
+    "bh-mj-prompt": "^0.0.0",
+    "bh-mj-small-detail": "^0.5.0",
+    "doubt": "^0.29.0",
+    "falzy": "^0.20.0",
+    "jquery": "^3.2.1",
+    "mjml": "^3.3.3",
+    "mjml-core": "^3.3.3",
+    "mjml-section": "^3.3.3",
+    "parseon": "^0.8.0",
+    "react": "^15.6.1",
+    "sxty4": "^0.10.0",
+    "wichevr": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bower-resolve-webpack-plugin": "^1.0.3",
+    "css-loader": "^0.28.4",
+    "del": "^3.0.0",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^3.1.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "llamalize": "^0.16.0",
+    "resolve-url-loader": "^2.1.0",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vinyl-paths": "^2.1.0",
+    "watch": "^1.0.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1",
+    "yargs": "^8.0.2"
+  }
+}

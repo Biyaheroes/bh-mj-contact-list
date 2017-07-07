@@ -1,0 +1,11 @@
+<mjml>
+	<mj-body>
+		<mj-container>
+			<mj-contact-list
+				foreground-color="white"
+				background-color="#3290cf"
+				list="W3sidGl0bGUiOiJFLU1haWwiLCJ2YWx1ZSI6InN1cHBvcnRAYml5YWhlcm9lcy5jb20ifSx7InRpdGxlIjoiTGFuZGxpbmUiLCJ2YWx1ZSI6IjEyMzQ1Njc4OTAifSx7InRpdGxlIjoiTW9iaWxlIiwidmFsdWUiOiIxMjM0NTY3ODkwIn1d"
+			/>
+		</mj-container>
+	</mj-body>
+</mjml>
