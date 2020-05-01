@@ -1,0 +1,972 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-accordion > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-button > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-carousel > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-cli > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-divider > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-group > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-head-attributes > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-head-font > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-hero > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-html > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-list > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-social > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-button > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-carousel > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-cli > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-container > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-divider > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-group > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-hero > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-html > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-list > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-raw > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-social > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-spacer > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-accordion > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-accordion > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-button > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-button > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-button > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-carousel > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-carousel > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-carousel > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-cli > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-cli > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-cli > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-column > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-divider > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-divider > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-divider > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-group > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-group > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-group > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-head-attributes > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-head-attributes > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-head-attributes > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-head-font > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-head-font > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-head-font > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-hero > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-hero > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-hero > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-html > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-html > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-html > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-list > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-list > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-list > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-social > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-social > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-social > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-button > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-carousel > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-cli > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-container > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-divider > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-group > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-hero > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-html > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-list > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-raw > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-social > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-spacer > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-button > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-button > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-button > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-carousel > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-carousel > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-carousel > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-cli > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-cli > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-cli > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-column > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-container > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-container > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-container > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-divider > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-divider > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-divider > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-group > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-group > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-group > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-hero > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-hero > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-hero > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-html > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-html > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-html > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-list > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-list > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-list > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-raw > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-raw > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-raw > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-social > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-social > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-social > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-spacer > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-spacer > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-spacer > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-image > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-text > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-section > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-button > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-button > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-button > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-carousel > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-carousel > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-carousel > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-cli > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-cli > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-cli > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-column > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-container > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-container > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-container > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-divider > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-divider > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-divider > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-group > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-group > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-group > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-hero > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-hero > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-hero > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-html > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-html > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-html > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-list > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-list > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-list > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-raw > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-raw > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-raw > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-social > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-social > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-social > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-spacer > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-spacer > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-spacer > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-image > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-table > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-text > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-section > mjml-core > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-button > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-carousel > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-cli > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-container > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-divider > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-group > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-hero > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-html > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-list > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-raw > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-social > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-spacer > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-image > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-table > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-text > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-button > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-button > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-button > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-carousel > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-carousel > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-carousel > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-cli > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-cli > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-cli > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-column > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-container > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-container > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-container > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-divider > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-divider > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-divider > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-group > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-group > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-group > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-hero > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-hero > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-hero > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-html > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-html > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-html > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-invoice > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-list > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-list > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-list > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-location > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - mjml > mjml-wrapper > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-raw > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-raw > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-raw > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-social > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-social > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-social > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-spacer > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-spacer > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-spacer > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-image > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-invoice > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-invoice > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-invoice > mjml-table > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-text > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-issue > mjml > mjml-wrapper > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-prompt > mjml > mjml-wrapper > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
+    - bh-mj-small-detail > mjml > mjml-wrapper > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T08:21:31.772Z'
