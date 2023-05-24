@@ -1,0 +1,193 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mjml > mjml-accordion > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > debug:
+        patched: '2023-05-24T20:57:45.495Z'
+  'npm:extend:20180424':
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > extend:
+        patched: '2023-05-24T20:57:45.495Z'
+  'npm:hoek:20180212':
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > boom > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > hawk > sntp > hoek:
+        patched: '2023-05-24T20:57:45.495Z'
+  SNYK-JS-LODASH-567746:
+    - mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-column > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-column > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-column > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-location > mjml-text > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-location > mjml-text > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-location > mjml-text > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-location > mjml-text > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > mjml-validator > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > async > lodash:
+        patched: '2023-05-24T20:57:45.495Z'
+  'npm:stringstream:20180511':
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > stringstream:
+        patched: '2023-05-24T20:57:45.495Z'
+  'npm:tough-cookie:20170905':
+    - mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-accordion > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-issue > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-prompt > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
+    - bh-mj-small-detail > mjml > mjml-navbar > mjml-section > mjml-core > juice > web-resource-inliner > request > tough-cookie:
+        patched: '2023-05-24T20:57:45.495Z'
